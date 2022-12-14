@@ -1,7 +1,12 @@
 {
   "name": "hardhat-project",
+  "homepage": "https://sakshi-1604.github.io/runner-game-dapp/",
+  "scripts": {
+    "deploy": "gh-pages -d scripts"
+  },
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "gh-pages": "^4.0.0"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0"
